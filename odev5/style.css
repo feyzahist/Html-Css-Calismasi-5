@@ -1,0 +1,110 @@
+body{
+    font-family: "Open Sans", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgb(19, 23, 23);
+}
+.mainDiv{
+    margin-top: -350px;
+    width:1050px;
+    height: 700px;
+    margin:0 auto;
+}
+.topMenu{
+    width:1150px;
+    height: 370px;
+    border-radius: 8px;
+    background-color: #F2F9FF;
+    margin-bottom: 60px;
+}
+.topTitle{
+    padding-top:20px;
+    padding-left:20px;
+    line-height: 33px;
+    font-weight:500;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(19, 23, 23);
+    font-size: 24px;
+}
+.topMenu li{
+    list-style-type: none;
+    margin-left:-20px;
+    line-height:25px;
+}
+.topText{
+    margin-top:30px;
+}
+.topLink{
+    color:blue;
+    margin-left:20px;
+}
+.bottomMenu{
+    width: 1100px;
+    height: 250px;
+    border-radius: 8px;
+    padding-right: 50px;
+    background-color: rgb(2, 17, 65);
+}
+.bottomTitle{
+    font-size: 24px;
+    line-height: 33px;
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    margin-left: 40px;
+    padding-top:40px;
+}
+.gonderMenu{
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+.gonderDiv{
+    list-style: none;
+    position: relative;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 60px;
+    width: 70%;
+    margin-left:40px;
+    border: 1px solid rgb(215, 221, 219);
+    background-color: rgb(255, 255, 255);
+    padding: 0px 12px; 
+}
+.label{
+    font-size: 12px;
+    font-weight:500px;
+}
+.input{
+    outline: none;
+    border:none;
+    margin-left:-2px;
+    font-size:14px;
+}
+.buttonDiv{
+    width:30%;
+    background-color: rgb(45, 196, 76);
+    height: 60px;
+}
+.button{
+    background-color: rgb(45, 196, 76);
+    border:none;
+    outline: none;
+    width:100%;
+    height: 102%;
+    color:#ffffff;
+    font-weight: 600;
+    font-size: 16px;
+}
+.button:hover{
+    cursor:pointer;
+}
+.checkbox{
+    color:white;
+    margin-left: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size:12px;
+    margin-top:8px; 
+}
